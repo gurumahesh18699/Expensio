@@ -13,8 +13,8 @@ export default function List() {
   useEffect(() => {
     if (loading)
       return
-      if(user)
-         getTransactions(user.uid)
+    if (user)
+      getTransactions(user.uid)
   }, [user])
   if (!user)
     return null
