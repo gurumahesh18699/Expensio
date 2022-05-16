@@ -19,6 +19,11 @@ export default function Details({ title, subheader }) {
                         padding: 20
                     }
                 }} />
+                <div className={classes.footerTitle}>
+                   <div>
+                       <span>Total Expenses on Categories </span>
+                   </div>
+                </div>
             </CardContent>
         </Card>
     )
